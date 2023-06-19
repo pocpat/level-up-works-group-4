@@ -1,0 +1,53 @@
+.cardBackground {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 90px;
+  width: 1375px;
+  border-radius: 15px;
+}
+
+.studentInfo {
+  width: 15%;
+  margin: 50px;
+}
+
+.student {
+  font: "open sans";
+  font-weight: 600;
+  color: #707070;
+  font-size: 20px;
+}
+
+.projectNo {
+  color: #707070;
+  font-size: 14px;
+  font: "open-sans";
+}
+
+.courseMarkers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.circle {
+  border: solid 1px #a2a0a0;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  box-shadow: 0px 3px 6px #00000040;
+}
+
+.greenCircle {
+  border: solid 1px #a2a0a0;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  box-shadow: 0px 3px 6px #00000040;
+  background-color: #99edcc;
+}

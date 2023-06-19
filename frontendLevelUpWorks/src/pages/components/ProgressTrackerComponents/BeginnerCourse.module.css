@@ -1,0 +1,53 @@
+.mainBack {
+  background-color: #d9f2fd;
+  width: 1600px;
+  height: 700px;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.headerText {
+  color: #6c6c6c;
+  font-size: 32px;
+  font-family: "Nunito";
+  font-weight: bold;
+  padding-top: 75px;
+  padding-left: 75px;
+}
+
+.topText {
+  display: flex;
+  align-items: center;
+}
+
+.ExportSec {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  padding-top: 75px;
+  padding-left: 720px;
+  font-family: "Open Sans";
+  color: #6c6c6c;
+  font-weight: bold;
+}
+
+.ExportImage {
+  height: 30px;
+  width: 30px;
+}
+
+.studentCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 110%;
+  margin-left: 70px;
+  padding-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+}

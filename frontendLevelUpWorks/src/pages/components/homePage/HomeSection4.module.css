@@ -1,0 +1,33 @@
+.containerS4 {
+    margin: 0 10% 0 10%;
+    padding: 4em 0 0 0 ;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--textPrimary);
+  }
+.containerS4 > h2 {
+  display: flex;
+  justify-content: center;
+   padding: 0 ;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.5em;
+  color: var(--textPrimary);
+}
+
+  .btnGroupS4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    flex-wrap: wrap;
+    
+  }
+  .btnS4:active{
+    background-color: #EFEFEF;
+    border: none;
+    
+  }

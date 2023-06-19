@@ -1,0 +1,51 @@
+.list {
+  display: flex;
+  flex-wrap: wrap; /*flex wrap used so the cards dont flow off the screen to the right but form neat rows */
+  overflow: hidden;
+}
+
+.background {
+  background-color: #ffffff80;
+  margin: 50px;
+  margin-right: 40px;
+  border-radius: 30px;
+  margin-bottom: -20px;
+}
+
+.smallPanel {
+  display: flex;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 200px;
+  height: 180px;
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  font-family: "open sans";
+  font-weight: 600;
+  color: #707070;
+}
+.avatar {
+  width: 75px;
+}
+
+.card > span {
+  color: #707070;
+  padding-top: 10px;
+}
+
+.scroll {
+  padding-right: 30px;
+  margin-top: -40px;
+  padding-bottom: 5px;
+}

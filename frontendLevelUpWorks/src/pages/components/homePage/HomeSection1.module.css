@@ -1,0 +1,92 @@
+
+.homeS1main {
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    margin: 0;
+     color: var(--textPrimary); 
+     font-family: 'Nunito', sans-serif;
+     font-weight: 600;
+     width: 1920px;
+ }
+ article> p {
+    
+    font-weight: 600; 
+  }
+  .homeSection1container {
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 0 0 10%;
+    width: 1920px;
+ }
+.homeS1
+    {
+    margin: 0 0 0 10%;
+  
+    padding: 2em 0;
+    height: 400PX;
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+   width:30% ;
+   max-width: 800px;
+   text-align: left;
+  } 
+
+  .homeS1 > p {
+    margin: 20px 0 20px 0; 
+  }
+  h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+    margin: 0 0 0.5em 0;
+  }
+  
+  .homeS1 > p {
+ font-size: 1 rem;
+    font-weight: 800;
+    margin: 0;
+    
+  } 
+  /*  Section_1 section buttons with <p> */
+  .homeS1btns {
+   display: flex;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+   
+  }
+  .star {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0 0 0 19em;
+    width:32%;
+   
+    
+  }
+  .star>p {
+     color: var(--textPrimary);
+     
+     font-size: 0.53em;
+     font-family: Open Sans;
+     font-weight: 800px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .homeSection1container {
+      padding: 0 0 0 20px;
+    }
+    
+    .homeS1 {
+      width: 500px;
+      font-size: 1rem;
+    }
+  }
+  
+
+
+
+
+
+  

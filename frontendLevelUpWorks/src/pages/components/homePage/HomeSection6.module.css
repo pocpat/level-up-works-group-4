@@ -1,0 +1,80 @@
+.section6{
+ max-width: 1920px;
+  min-width: 320px;
+  margin: 15px 10%;
+  display: grid;
+  
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+   
+}
+.textBtnS6{
+  
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  padding:3% 0 5% 0;
+  
+}
+.textS6{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: var(--textPrimary);
+    font-family: 'Nunito', sans-serif;
+   
+}
+.textS6 > h1{
+
+    font-size: 2.5em;
+    font-weight: 600;
+ 
+}
+.textS6 > p {
+  font-size: 1em;
+  font-weight: 600;
+
+}
+.textS6 > h3{
+  font-size: 2em;
+  font-weight: 600;
+  padding: 0;
+
+}
+.btnGroupS6{
+ 
+    display: flex;  
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    width: 100%;
+    margin: 5% 3% 5% 0;
+  
+} 
+
+
+
+@media screen and (max-width: 800px) {
+.section6{
+ grid-template-columns: 1fr !important;
+ 
+}
+
+.textS6{
+ font-size: 0.9em;
+}
+
+
+}
+@media screen and (max-width: 100px) {
+  .btnGroupS6{
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+}

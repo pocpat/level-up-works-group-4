@@ -1,0 +1,141 @@
+.mainFooter {
+  /* box-sizing: border-box; */
+  color: gray;
+  background-color: #b2e4fa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  width: 100%;
+
+  /* @media (max-width: 1000px) {
+    padding: 70px 30px;
+    } Note: modify later */
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 60px;
+  /* display: flex;
+      flex-direction: row;
+      justify-content: center;  
+      margin: 0 60px; */
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 50px 0 50px;
+}
+
+.footerRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.listUnstyled {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.listUnstyled a {
+  color: gray;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.listUnstyled a:hover {
+  color: green;
+  transition: 200ms ease-in;
+}
+
+.contactEmail {
+  text-decoration: none;
+  color: gray;
+  padding: 0;
+}
+
+h5 {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .mainFooter,
+  .footerColumn {
+    flex-direction: column;
+  }
+}
+
+/* Had to comment these lines out to remove the errors */
+/* color: gray;
+  background-color: #B2E4FA;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;  
+  width: 100%; */
+
+/* @media (max-width: 1000px) {
+  padding: 70px 30px;
+  } Note: modify later */
+/* } */
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 60px;
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 50px 0 50px;
+}
+
+.footerRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.listUnstyled {
+  list-style: none;
+  padding: 0;
+}
+
+.listUnstyled a {
+  color: gray;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.listUnstyled a:hover {
+  color: green;
+  transition: 200ms ease-in;
+}
+
+.contactEmail {
+  text-decoration: none;
+  color: gray;
+  padding: 0;
+}
+
+h5 {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .mainFooter,
+  .footerColumn {
+    flex-direction: column;
+  }
+}

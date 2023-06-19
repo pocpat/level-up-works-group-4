@@ -1,0 +1,8 @@
+.background {
+  background-color: #b2e4fa;
+  height: 820px;
+}
+
+.layout {
+  display: flex;
+}

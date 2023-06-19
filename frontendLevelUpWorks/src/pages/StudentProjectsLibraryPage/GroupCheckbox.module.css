@@ -1,0 +1,96 @@
+.pageContainer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: grey;
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.projectsContainer {
+  margin-top: 40px;
+}
+
+.checkbox-container {
+  grid-row: 1 / 6;
+  align-items: end;
+}
+
+.formHeadContactH5 {
+  border-bottom: 2px solid grey;
+}
+.row {
+}
+.btnCourseLevel {
+  background: transparent;
+  border-color: transparent;
+  height: 20px;
+  font-size: 10px;
+  text-transform: capitalize;
+  margin: 0 375px;
+  letter-spacing: 1px;
+  padding: 0;
+  color: blue;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.btnCourseLevel2 {
+  background: transparent;
+  border-color: transparent;
+  height: 14px;
+  font-size: 10px;
+  text-transform: capitalize;
+  margin: 0 375px;
+  letter-spacing: 1px;
+  padding: 0;
+  color: blue;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.btnCourseLevel:hover {
+  color: blue;
+}
+
+.active {
+  color: blue;
+}
+
+.checkboxGroupContainer {
+  margin-bottom: 50px;
+  margin-left: 100px;
+  grid-row: 1 / 6;
+  align-items: end;
+}
+
+h1 {
+  /* margin-left: 450px; */
+  /* color: grey; */
+}
+p {
+  color: grey;
+}
+.cardsContainer {
+  width: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 150px;
+}
+
+.card {
+  width: 200px;
+  height: auto;
+}
+
+.mainContents {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+}
+
+.avatar {
+  width: 200px;
+  height: auto;
+}

@@ -1,0 +1,84 @@
+.modal-login{
+
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+    min-width:890px;
+    max-width: 2000px;
+    /* height: 100vh; */
+/* background-size: cover; */
+background-position: center;
+
+}
+#modal-open-login{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    transition: background-color 0.5s ease;
+}
+#contact-modal-login{
+/* display: none; */
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.5);
+}
+#modal-content-login{
+    background-color: white;
+    margin: 35px auto;
+    padding: 0 0 30px 0 ;
+    width:60%;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+    animation-name: modalSlideUp;
+    animation-duration: 1s;
+}
+.modal-two-login{
+    display: flex;
+    flex-direction: row;
+ 
+}
+.modal-header-login {
+display: flex;
+flex-direction: column;
+}
+.modal-footer-login{
+    height:5px ;
+}
+.close-modal-login{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    height: 50px;
+}
+
+.modal-header-login 
+.close-modal-login{
+font-size: 50px;
+ font-weight: 900;
+float: right;
+}
+
+.modal-header-login .close-modal-login:hover{
+color: '#0099cc';
+cursor: pointer;
+}
+
+input[type='submit']{
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 75%;
+    margin-left: 12.5%;
+    transition: background-color 0.3s ease;
+}
+
+@keyframes modalSlideUp{
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}

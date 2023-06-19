@@ -1,0 +1,58 @@
+.LilSidebar {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  /* height: 956px; */
+  height: 100%;
+  background-color: #43c0f6;
+}
+
+.TeachPhoto {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 100px;
+}
+
+.HLMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b2e4fa;
+  width: 100%;
+  height: 85px;
+}
+
+.HRIcon {
+  transform: scale(60%);
+}
+
+.LilSbTopHalf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 35%;
+}
+
+.openBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  /* background-color: #b2e4fa; */
+  height: 72px;
+  width: 64px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.bottomSb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: auto;
+  margin-bottom: 80px;
+  height: 15%;
+}

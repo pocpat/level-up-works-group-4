@@ -1,0 +1,82 @@
+.pageContainer {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  color: grey;
+}
+
+.btnWidth1 {
+  width: 110px;
+}
+
+.btnWidth2 {
+  width: 40px;
+}
+
+.mainContents{
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+}
+
+.checkboxGroupContainer {
+  margin-bottom: 50px;
+  margin-left: 50px;
+  grid-row: 1 / 6;
+  align-items: end;
+}
+
+
+.formHeadContactH5 {
+  border-bottom: 2px solid grey;
+}
+
+.formCheckLabel {
+  padding-left: 10px;
+}
+
+
+.btnGroup1 {
+  margin-left: 500px;
+}
+
+.btnGroup2 {
+  margin-left: 550px;  
+}
+
+.btnGroup1:hover, .btnGroup2:hover {
+  color: blue;
+}
+
+.active {
+  color: blue;
+}
+
+ p, h1 {
+  color: grey;
+ }
+
+ hr {
+  border: none;
+ }
+
+.cardsContainer{
+  width: 750px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 100px;
+}
+
+.card {
+  width: 250px;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+.avatar {
+  width : 250px;
+  height: auto;
+}

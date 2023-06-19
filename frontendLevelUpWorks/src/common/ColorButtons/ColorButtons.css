@@ -1,0 +1,11 @@
+.colorButton {
+  height: 35px;
+  font-family: 'Nunito';
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+}

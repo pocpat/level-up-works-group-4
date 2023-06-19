@@ -1,0 +1,157 @@
+.BigSidebar {
+  background-color: #43c0f6;
+  width: 250px;
+  height: 820px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.TeachPhoto {
+  width: 75px;
+  height: 75px;
+  margin-top: 75px;
+  margin-bottom: 20px;
+  left: 79px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.HLMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b2e4fa;
+  padding-left: 17px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 8px;
+}
+
+.sideBarContent {
+  display: flex;
+  width: 100%;
+}
+
+.sideBarImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  height: 200px;
+}
+
+.sideBarText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 200px;
+  width: 70%;
+}
+
+.PTIcon {
+  transform: scale(60%);
+  margin-left: -8px;
+  margin-bottom: 10px;
+}
+
+.SPIcon {
+  transform: scale(60%);
+}
+
+.HRIcon {
+  transform: scale(60%);
+}
+
+.PSIcon {
+  transform: scale(60%);
+}
+
+.PLIcon {
+  transform: scale(60%);
+}
+
+.HLmenuText {
+  color: #707070;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  background-color: #b2e4fa;
+  width: 100%;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.menuText {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.closeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  width: 64px;
+  background-color: #b2e4fa;
+  border-radius: 10px 0px 0px 10px;
+  margin-top: 30px;
+  margin-left: auto;
+}
+
+.BSBottom {
+  display: flex;
+  margin-top: auto;
+  justify-content: space-evenly;
+  margin-bottom: 125px;
+}
+
+.BSProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.BSSettings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.BSLogout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.BSImages {
+  height: 26px;
+  width: 26px;
+}
+
+.BSText {
+  text-decoration: none;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.SettingsText {
+  font-size: 10px;
+  color: #ffffff;
+}

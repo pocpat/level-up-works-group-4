@@ -1,0 +1,47 @@
+.teachDashNav {
+  height: 64px;
+}
+.levelUpWorksBlue {
+  width: 146px;
+  height: 60px;
+  margin-left: 38px;
+}
+.flexContainerDashNav {
+  display: flex;
+  justify-content: space-between;
+  /* margin-right: 150px; */
+}
+.dashNavButton {
+  width: 200px;
+  height: 35px;
+  margin: 20px 5px;
+  /* box-shadow: 0px 3px 6px #00000029; */
+  font-family: 'Nunito';
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  /* position: relative;
+  bottom: 30%; */
+}
+.yellowButton {
+  background-color: var(--warningMain);
+  box-shadow: 0px 3px 6px #00000029;
+}
+.pinkButton {
+  background-color: var(--secondaryMain);
+  box-shadow: 0px 3px 6px #00000029;
+}
+/* .blueButton {
+  background-color: var(--primaryMain);
+  cursor: pointer;
+} */
+.dashFlagsContainer {
+  margin: 0 40px;
+  margin-top: 16px;
+}
+.dashFlags {
+  height: 12px;
+  width: 24px;
+  margin: 0 4px;
+}

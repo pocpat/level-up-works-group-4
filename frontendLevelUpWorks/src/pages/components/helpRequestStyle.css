@@ -1,0 +1,172 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Open+Sans:wght@600;700&display=swap'); */
+
+* {
+  /* border: 2px solid red; */
+}
+
+.helpReqMainBody {
+  background-color: var(--primaryLight);
+  color: var(--textPrimary);
+  padding: 2em 2em;
+  width: 100%;
+  /* height: auto; */
+}
+/* .helpMainBg {
+  background-color: var(--primaryLight); 
+} */
+.helpContainer {
+  background: transparent url('../../src-assets/helpreqimg/Rectangle 256.png')
+    0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+  margin: 1em 1.5em;
+  padding-bottom: 2em;
+}
+.helpContainerFlex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.flexContainerHelp {
+  display: flex;
+  justify-content: space-between;
+}
+.helpContentContainer {
+  width: 85%;
+}
+/* ~~~~~~~~~~~~~~~~~  Main title and actions of page ~~~~~~~~~~~~~~~~~  */
+.helpTitle {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-left: 69px;
+  margin-top: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+}
+.choicesContainer {
+  text-transform: uppercase;
+  font-size: 19px;
+  margin-top: 80px;
+}
+.requestChoices {
+  margin-right: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.choiceIcon {
+  position: relative;
+  top: 1em;
+  margin: 0 0.6em;
+  height: 22px;
+  width: 29px;
+}
+.markAsDone {
+  cursor: pointer;
+  transition: 150ms linear;
+}
+.markAsDone:hover {
+  color: #3b983b;
+}
+/* ~~~~~~~~~~~~~~~~~  Each Individual help Request Card ~~~~~~~~~~~~~~~~~ */
+.requestBox {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.reqFlexContainer {
+  display: flex;
+}
+
+.requestCard.flexContainerHelp {
+  justify-content: space-between;
+}
+.requestCard {
+  background-color: white;
+  border-radius: 15px;
+  margin: 0 2em;
+  margin-left: 0;
+  width: 90%;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 82px;
+}
+.reqInfo {
+  display: flex;
+}
+/* ~~~~~~~~~~~~~~~~~ CHECK BOX ~~~~~~~~~~~~~~~~~  */
+.checkBox {
+  margin: 22px 3em;
+  margin-right: 31px;
+  width: 31px;
+  height: 31px;
+}
+
+.reqImg {
+  margin: 8px 2em;
+  width: 66px;
+  height: 66px;
+}
+.reqName {
+  font-size: 24px;
+  margin: 20px 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.studentReqName {
+  text-transform: uppercase;
+}
+.reqDateTime {
+  text-align: right;
+  margin: 0 3em;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+/* ~~~~~~~~~~ Scroll Bar ~~~~~~~~~~  */
+/* .scrollBarTest {
+  width: 27px;
+  height: 740px;
+  border-radius: 30px;
+  background-color: #fff;
+  margin-top: 50px;
+}
+.scrollBarInner {
+  width: 18px;
+  height: 218px;
+  border-radius: 15px;
+  background-color: var(--primaryMain);
+  margin: 14px 4.5px;
+} */
+
+@media (max-width: 640px) {
+  .helpReqMainBody {
+    background-color: crimson;
+    padding: 1em 1em;
+  }
+  .helpContainer {
+    margin: 0.5em 1em;
+  }
+  .flexContainerHelp {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .helpTitle {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .choicesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .requestChoices {
+    margin-right: 2em;
+  }
+  .choiceIcon {
+    position: relative;
+    top: 1em;
+    margin-left: 0.8em;
+    height: 19px;
+    width: 25px;
+  }
+}
